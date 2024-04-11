@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stevey Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <!-- Logo on the left -->
+        <div class="logo">
+          <img
+            src="https://img.freepik.com/free-vector/flat-design-library-logo-design_23-2149324478.jpg?size=626&ext=jpg"
+            alt="Logo"
+          />
+        </div>
+        <!-- My Favorites tag on the right -->
+        <div class="favorites-tag">
+          <label for="favorites">My Favorites</label>
+          <select id="favorites" name="favorites">
+            
+          </select>
+        </div>
+      </nav>
+      <!-- Book search section -->
+      <h1>Fantastic Book Finder</h1>
+      <div class="search">
+        <input type="text" id="searchInput" placeholder="Enter book title..." />
+        <button id="searchButton">Search</button>
+      </div>
+      <div id="searchResults"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
