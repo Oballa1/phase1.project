@@ -2,9 +2,6 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    padding-right: 10px;  
-    border-style: dotted; 
-    border-color: goldenrod; 
 }
 
 .navbar {
@@ -22,20 +19,25 @@
     width: 100px; 
 }
 
-.favorites-tag {
-    padding-right: 30px;
-    font-size: 18px;
-    border-color: gold;
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.picture-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .search {
     margin-bottom: 20px;
-}
-
-.heading1{
-    font-size: 30px;
-    font-weight: bold;
-    padding-right: 70px;
 }
 
 #searchInput {
@@ -58,3 +60,8 @@
 #searchButton:hover {
     background-color: #0056b3;
 }
+
+.favorites-tag {
+    font-size: 18px;
+}
+
