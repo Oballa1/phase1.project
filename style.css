@@ -6,14 +6,22 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
     border-style: double;
     border-width: 5px;
     border-color: aqua;
     background-color: rgb(252, 236, 150);
-}
+  }
+  
+  .logo {
+    margin-right: 20px; /* Adjust the margin between logo and h1 */
+  }
+  
+  .navbar-title {
+    margin: 0; /* Reset margin for h1 */
+  }
+  
 
 .logo img {
     width: 100px; 
