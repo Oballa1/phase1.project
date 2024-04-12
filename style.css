@@ -2,9 +2,9 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    padding-right: 10px; /* New addition */
-    border-style: dotted; /* New addition */
-    border-color: goldenrod; /* New addition */
+    padding-right: 10px;  
+    border-style: dotted; 
+    border-color: goldenrod; 
 }
 
 .navbar {
