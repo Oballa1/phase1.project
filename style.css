@@ -36,6 +36,8 @@
 .picture-grid img {
     width: 100%;
     height: auto;
+    object-fit: cover;
+    height: 200px;
 }
 
 .nav-right {
