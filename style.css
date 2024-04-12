@@ -75,4 +75,9 @@
 .favorites-tag {
     font-size: 18px;
 }
+button.available-genres-button {
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+  
 
