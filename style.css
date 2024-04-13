@@ -1,83 +1,89 @@
+/* Container */
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #d1c7c7;
+    background-color: #d1c7c7; /* Light gray background */
 }
 
+/* Navigation Bar */
 .navbar {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     border-style: double;
     border-width: 5px;
-    border-color: aqua;
-    background-color: rgb(252, 236, 150);
-  }
-  
-  .logo {
-    margin-right: 20px; /* Adjust the margin between logo and h1 */
-  }
-  
-  .navbar-title {
-    margin: 0; /* Reset margin for h1 */
-  }
-  
-
-.logo img {
-    width: 100px; 
+    border-color: aqua; /* Aqua double border */
+    background-color: rgb(252, 236, 150); /* Light yellow background */
 }
 
+/* Logo */
+.logo {
+    margin-right: 20px; /* Adjust the margin between logo and title */
+}
+
+/* Navbar Title */
+.navbar-title {
+    margin: 0; /* Reset margin for h1 */
+}
+
+/* Logo Image */
+.logo img {
+    width: 100px; /* Set logo image width */
+}
+
+/* Picture Grid */
 .picture-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr); /* Grid with three columns */
+    gap: 10px; /* Gap between grid items */
 }
 
+/* Picture Grid Images */
 .picture-grid img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    height: 200px;
+    width: 100%; /* Ensure images fill grid cells */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover aspect ratio */
+    height: 200px; /* Set image height */
 }
 
+/* Navigation Right Section */
 .nav-right {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /* Space between search and favorites */
 }
 
+/* Search Section */
 .search {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Margin bottom for spacing */
 }
 
+/* Search Input */
 #searchInput {
     padding: 8px;
     font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
 }
 
+/* Search Button */
 #searchButton {
     padding: 8px 20px;
     font-size: 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
 }
 
+/* Search Button Hover */
 #searchButton:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
+/* Favorites Tag */
 .favorites-tag {
-    font-size: 18px;
+    font-size: 18px; /* Larger font size */
 }
-button.available-genres-button {
-    font-size: 15px;
-    padding: 10px 10px;
-  }
-  
-

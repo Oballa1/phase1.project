@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Get references to DOM elements
     const searchInput = document.getElementById('searchInput');
     const searchButton = document.getElementById('searchButton');
     const searchResults = document.getElementById('searchResults');

@@ -8,15 +8,18 @@
 </head>
 <body>
   <div class="container">
+    <!-- Navigation Bar -->
     <nav class="navbar">
-      <!-- Logo and Title beside each other -->
+      <!-- Logo and Title -->
       <div class="logo">
         <img src="https://img.freepik.com/free-vector/flat-design-library-logo-design_23-2149324478.jpg?size=626&ext=jpg" alt="Logo" />
       </div>
       <h1 class="navbar-title">Fantastic Book Finder</h1>
     </nav>
-    <!-- Div with six pictures -->
+
+    <!-- Picture Grid -->
     <div class="picture-grid">
+      <!-- Sample Book Covers -->
       <img src="https://www.creatopy.com/blog/wp-content/uploads/2020/08/The-Great-Gatsby-Book-Cover-391x600.jpg" alt="Picture 1">
       <img src="https://marketplace.canva.com/EAFaQMYuZbo/1/0/1003w/canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg" alt="Picture 2">
       <img src="https://cdn-jlein.nitrocdn.com/orVjFHVeeKCFKIcyrYpCzZsveEABSlhk/assets/images/optimized/rev-d346f3b/www.papertrue.com/blog/wp-content/uploads/2023/11/461984.jpg" alt="Picture 3">
@@ -24,19 +27,26 @@
       <img src="https://d29xot63vimef3.cloudfront.net/image/classic-childrens-books/2-1.jpg" alt="Picture 5">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiPh9-DHCixhJZEGmhgsf6mBztHB2Phpry5Z56ukpnJg&s" alt="Picture 6">
     </div>
-    <!-- Favorites and Search section -->
+
+    <!-- Search and Favorites Section -->
     <div class="nav-right">
+      <!-- Search Input -->
       <div class="search">
         <input type="text" id="searchInput" placeholder="Enter book title..." />
         <button id="searchButton">Search</button>
       </div>
+
+      <!-- Favorites Dropdown -->
       <div class="favorites-tag">
         <label for="favorites">My Favorites</label>
         <select id="favorites" name="favorites"></select>
       </div>
     </div>
-    <!-- Search results section -->
+
+    <!-- Search Results Section -->
     <div id="searchResults"></div>
+
+    <!-- Comment Form -->
     <form id="commentForm" class="comments-form">
       <h2>Leave a Comment</h2>
       <label for="name">Name:</label>
@@ -46,6 +56,8 @@
       <button type="submit">Post Comment</button>
     </form>
   </div>
+  
+  <!-- JavaScript File -->
   <script src="index.js"></script>
 </body>
 </html>
